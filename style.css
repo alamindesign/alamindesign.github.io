@@ -29,9 +29,11 @@ nav{
 	background-color: blue;
 	position: sticky;
 	top: 0;
+	display: flex;
+	align-items: center;
 }
 ul,li{
-	display: inline-block;
+	display: flex;
 	margin: 0;
 	padding-left: 50px;
 	color: white;
@@ -52,6 +54,25 @@ section{
 	width: 30%;
 	height: 1000px;
 	background-color: magenta;
+	display: flex;
+	justify-content: center;
+
+}
+.myimg{
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	background-color: white;
+	line-height: 2px;
+}
+img{
+	border-radius: 50%;
+	box-shadow: 3px 5px 20px;
+}
+h2{
+	text-align: center;
+	font-size: 2em;
+	color: white;
 }
 .button{
 	width: 50px;
@@ -60,7 +81,7 @@ section{
 	position: fixed;
 	right: 30px;
 	bottom: 20px;
-	border-radius: 10px;
+	border-radius: 50%;
 	text-align: center;
 	color: white;
 	font-size: 50px;
