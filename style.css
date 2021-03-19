@@ -49,6 +49,17 @@ section{
 	width: 70%;
 	height: 1000px;
 	background-color: cyan;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+.box{
+	height: 300px;
+	width: 250px;
+	background-color: white;
+	box-shadow: 3px 3px 5px;
+	margin: 5px;
 }
 .aside{
 	width: 30%;
@@ -63,7 +74,6 @@ section{
 	height: 300px;
 	border-radius: 50%;
 	background-color: white;
-	line-height: 2px;
 }
 img{
 	border-radius: 50%;
