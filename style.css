@@ -104,31 +104,6 @@ img:hover{
 	padding: 0;
 	margin-bottom: 50px;
 }
-/*.aside{
-	width: 30%;
-	/*height: 1000px;*/
-	background-color: #ed00ed;
-	display: flex;
-	justify-content: center;
-
-}*/
-.myimg{
-	width: 300px;
-	height: 300px;
-	border-radius: 50%;
-	background-color: white;
-}
-.myimg img{
-	width: 300px;
-	height: 300px;
-	border-radius: 50%;
-	box-shadow: 3px 5px 10px;
-}
-h2{
-	text-align: center;
-	font-size: 2em;
-	color: white;
-}
 .button{
 	width: 50px;
 	height: 50px;
