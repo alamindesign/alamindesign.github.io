@@ -38,20 +38,32 @@ nav{
 	align-items: center;
 	z-index: 1111;
 }
-@media only screen and (max-width: 600px){
+@media(max-width: 380px){
+	body{
+		width: 100vh;
+	}
 	h1{
 		font-size: 20px;
+		margin-left: 100px;
 	}
 
 	nav{
 		font-size: 0.5em;
 	}
-	li{
-		padding-left: 0px;
+}
+@media(max-width: 600px){
+	body{
+		width: 100vh;
 	}
-	/*.order{
-		margin: 0;
-	}*/
+	h1{
+		font-size: 50px;
+		margin-left: 100px;
+	}
+
+	nav{
+		font-size: 0.7em;
+		clear: both;
+	}
 }
 ul{
 	display: flex;
@@ -67,6 +79,7 @@ li{
 }
 .order{
 	margin-left: auto;
+	margin-right: 5px;
 }
 section{
 	width: 100%;
